@@ -1,3 +1,8 @@
+var entries = require('object.entries')
+if (!Object.entries) {
+    entries.shim();
+}
+
 function invertKeysMap(keysMap) {
   const recursiveInverseKeys = []
   const inverseKeysMap = Object.assign(...Object.entries(keysMap).map(

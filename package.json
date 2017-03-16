@@ -19,5 +19,8 @@
   "devDependencies": {
     "buble": "^0.15.2",
     "rollup": "^0.41.4"
+  },
+  "dependencies": {
+    "object.entries": "^1.0.4"
   }
 }
